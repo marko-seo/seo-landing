@@ -1,0 +1,215 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1540px)
+  /* === Advantage === */
+  .advantage__sinusoid
+    transform: translate(0, -260px)
+
+// ≥1200px
++media-breakpoint-down(lg)
+  /* === Header === */
+  .header__btn
+    font-size: 14px
+
+  /* === Advantage === */
+  .advantage
+    padding-bottom: 40px
+
+  .advantage__sinusoid
+    display: none
+  
+  /* === Key work === */
+  .works__caption
+    &:before
+      left: 40px
+
+  /* === Result === */
+  .result__box
+    width: 390px
+
+// ≥992px
++media-breakpoint-down(md)
+  /* === Header === */
+  .header
+    background: #2C2C2C
+    &.header--sticky
+      .header__inner
+        padding: 0
+
+  .mob-nav
+    &.mob-nav--open
+      display: block
+
+  .header__inner
+    padding: 0
+
+  /* === Section offer === */
+  .offer__cloud
+    display: none
+
+  /* === Our services === */
+  .services
+    padding-bottom: 40px
+    
+  .services__img
+    padding-top: 0
+    align-items: center
+
+  /* === Reviews === */
+ 
+
+  /* === Key work === */
+  .works__list
+    margin-bottom: 30px
+
+  /* === Result === */
+  .result__item
+    padding: 0 15px
+
+  .result__graph
+    display: flex
+    margin-bottom: 30px
+    justify-content: center
+
+  .result__box
+    width: 100%
+    margin: 0 auto
+    max-width: 462px 
+
+  /* === Section price === */
+  .tariffs__item
+    margin-bottom: 110px
+
+  /* === Section price === */
+  .tariffs__img
+    flex-direction: column
+    justify-content: center
+    picture
+      &:first-child
+        align-self: flex-start
+      &:last-child
+        align-self: flex-end
+
+  /* === Section calculate === */
+  .calculate__form
+    margin: 0 auto
+    max-width: 374px
+
+  /* === footer === */
+  .footer__logo
+    display: inline-block
+    margin-bottom: 15px
+
+  .footer__nav
+    margin-bottom: 15px
+
+  .footer__menu
+    flex-direction: column
+
+  .footer__tel
+    display: inline-block
+    margin-bottom: 15px
+
+  /* === Reviews === */
+  .reviews__link
+    display: none
+
+// ≥768px
++media-breakpoint-down(sm)
+  /* === Advantage === */
+  .advantage__item
+    margin-bottom: 30px
+  
+  /* === Our services === */
+  .services__img
+    justify-content: space-around
+    flex-direction: column
+    picture
+      &:first-child
+        align-self: flex-start
+      &:last-child
+        align-self: flex-end
+
+  /* === Section price === */
+  .tariffs
+    padding-bottom: 0px
+
+// ≥576px
++media-breakpoint-down(xs)
+  /* === Section offer === */
+  .offer__btn
+    font-size: 15px
+
+  /* === Our services === */
+  .services__icon
+    > svg
+      width: 50px
+      height: 50px
+
+  /* === Advantage === */
+  .advantage__desc
+    font-size: 14px
+
+  /* === Key work === */
+  .works__caption
+    span
+      font-size: 16px
+    &:before
+      display: none
+
+  .works__list
+    margin-bottom: 0
+
+  .works__contents-item
+    font-size: 14px
+  
+  /* === Reviews === */
+  .reviews__item
+    padding-left: 15px
+    padding-right: 15px
+
+  .reviews__logo-company
+    margin-right: 10px
+
+  .reviews__content
+    padding: 0 20px
+
+  .reviews__post,
+  .reviews__name
+    font-size: 14px
+
+  /* === popup === */
+  .popup
+    padding: 40px 30px
+
+  .popup__title
+    font-size: 18px
+
+  .popup__desc
+    font-size: 14px
+
+  .form__group,
+  .form__textarea,
+  .form__action
+    margin-bottom: 20px
+
+@media only screen and (max-width: 380px)
+  /* === Key work === */
+  .works__contents
+    height: 383px
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
